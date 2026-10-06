@@ -19,7 +19,7 @@ import streamlit as st
 from physics import R, p_v_curve, simulate_process
 
 
-MODEL_FILE = Path("models/mlp_thermodynamics.joblib")
+MODEL_FILE = Path("mlp_thermodynamics.joblib")
 
 st.set_page_config(
     page_title="Simulador Termodinámico + IA",
